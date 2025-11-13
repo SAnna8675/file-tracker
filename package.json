@@ -1,0 +1,15 @@
+{
+	"name":"file-tracker",
+	"displayName": "File Tracker",
+	"version": "1.0.0",
+	"engines": { "vscode": "^1.60.0" },
+	"main": "./out/extension.js",
+	"activationEvents": ["onStartupFinished"],
+	"scripts": { "compile": "tsc -p ./" },
+	"devDependencies":
+	{
+		"@types/vscode": "^1.60.0",
+		"@types/node": "16.x",
+		"typescript": "^4.9.4"
+	}
+}
